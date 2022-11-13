@@ -1,0 +1,87 @@
+/* BACKGROUND COLOR */
+body {
+    background: #D1D8EC;
+}
+
+/* Heading */
+h1 {
+    color: purple;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+ 
+h1::first-letter{
+    font-size: larger;
+}
+
+ /* FORM */
+.main {
+   color: blueviolet;
+   border: 3px outset  rgb(255, 0, 212);
+   font-weight: bold;
+   min-width:200px;
+   max-width: 255px;
+   height: 470px;
+   margin: 0ch auto;
+   box-shadow: 14px 14px 26px #b2b8c9, -14px -14px 26px #f0f8ff;
+   border-radius: 12px 24px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset >label {
+   line-height: 2em;
+}
+ /* Inout Designs */
+form [id] {
+    height: 25px;
+    border-radius: 12px;
+   border: 0px inset white;
+   padding-left: 5px;
+}
+
+form [id="uname"] {
+    text-transform: capitalize;
+}
+
+form [id="Qualification"] {
+    text-transform: capitalize;
+}
+
+input:focus{
+    outline-color:  rgb(235, 0, 200);
+    font-size:14px;
+}
+
+input:hover{
+    padding-top: 2px;
+}    
+
+
+/* Submit Button */
+.submit {
+    padding: 6px;
+    width: 70px;
+    float: right;
+    border-radius: 3px;
+    border-color:rgb(230, 95, 207);
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.submit:hover {
+    padding: -1px;
+    background-color: rgb(210, 0, 200);
+    border:1px solid white;
+    color:white;
+    font-weight:5px;
+}
+
+
+
